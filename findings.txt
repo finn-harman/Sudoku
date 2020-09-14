@@ -1,0 +1,19 @@
+Summarise your findings here (see specification).
+
+To identify each of the mystery puzzles, I counted the number of times
+my recursive 'solve_board' function was called to solve each of the
+sudokus. In the case of the impossible sudoku, I found the sudoku for
+which the 'solve_board' function returned false.
+
+My results were:
+Easy board: 2172 calls
+Medium board: 15662 calls
+Hard board (mystery3.dat): 25667 calls
+Very hard board (mystery1.dat): 421547 calls
+Impossible board (mystery2.dat)
+
+I chose to use recursive calls as my measure of complexity as it will
+be the same on any machine. Recording time taken to
+solve each sudoku would vary between machines, although the order of
+time taken would be the same across machines. By measuring number of
+calls, we get a better idea of the mechanics of the recursive function.
