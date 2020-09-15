@@ -2,6 +2,22 @@
 
 A C++ sudoku solver.
 
-### How to use
+### Example use
 
-In order to get the project up and running:
+Example use:
+```
+$ git clone https://github.com/finn-harman/TISA.git
+$ cd Sudoku
+$ ./sudoku
+```
+
+## Authors
+
+* **Finn Harman** - [GitHub](https://github.com/finn-harman)
+
+See also the list of [contributors](https://github.com/finn-harman/TISA/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/matthewsmorrison/Worgl-Coin/blob/master/LICENSE) file for details
+
